@@ -1,0 +1,25 @@
+body {
+  background-color: #ca3e47;
+}
+
+.list {  
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+}
+
+.list__item {
+  list-style: none;
+  line-height: 4rem;
+  margin-bottom: 18%;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #ca3e47;
+  font-family: 'Righteous', cursive;
+  font-size: 21px;
+  background-color: #2b2a2a;
+  box-shadow: inset 0px 0px 20px 2px #151414;
+}
